@@ -9,7 +9,7 @@ public class year {
         int year = 0;
         int months = 0;
         int week = 0;
-        int hour = 0;
+        int day = 0;
         int remainingsdays = days;
         while(remainingsdays>=365 )
         {
@@ -29,21 +29,13 @@ public class year {
         }
         while(remainingsdays>=1)
         {
-            hour++;
+            day++;
             remainingsdays-=1;
         }
         System.out.println("Years:" +year);
         System.out.println("Months:" +months);
         System.out.println("Weeks:" +week);
-       System.out.println("Day:" +hour);
-
-
-
-        
-
-
-        
-        
+       System.out.println("Day:" +day);        
     }
     
 }
