@@ -11,7 +11,7 @@ public class descending {
         }
         Arrays.sort(numbers);
         for (int i = 3; i >= 0; i--) {
-            System.out.print(numbers[i] + (i > 0 ? " " : ""));
+            System.out.print(numbers[i] +" ");
         }
 
         
